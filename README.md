@@ -69,12 +69,13 @@ b. Run `LubyMIS` on `twitter_original_edges.csv` with 4x2 cores (vCPUs) and then
 4x2 cores:
 |        Iteration       | Remaining Active Vertices|
 | ----------------------- |---------- |
-| 1       | 6,863,295 |
-| 2      | 35,763 |
-| 3  | 416 |
-| 4  | 0 |
+| 1       | 6,972,859 |
+| 2      | 36,405 |
+| 3  | 460 |
+| 4  | 2 |
+| 5 | 0 |
 
-Luby's algorithm completed in 182s.
+Luby's algorithm completed in 438s.
 
 2x2 cores
 |        Iteration       | Remaining Active Vertices|
@@ -83,6 +84,7 @@ Luby's algorithm completed in 182s.
 | 2      | 35,763 |
 | 3  | 416 |
 | 4  | 0 |
+| 5 | 0 |
 
 Luby's algorithm completed in 182s.
 
