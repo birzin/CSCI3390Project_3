@@ -1,3 +1,5 @@
+Reif Birzin, Zelig Riyanto, Olivia McCarty
+
 # Large Scale Data Processing: Project 3
 ## Getting started
 Head to [Project 1](https://github.com/CSCI3390Spring2025/project_1) if you're looking for information on Git, template repositories, or setting up your local/remote environments.
@@ -80,13 +82,15 @@ Luby's algorithm completed in 438s.
 2x2 cores
 |        Iteration       | Remaining Active Vertices|
 | ----------------------- |---------- |
-| 1       | 6,863,295 |
-| 2      | 35,763 |
-| 3  | 416 |
-| 4  | 0 |
+| 1       | 6,823,355 |
+| 2      | 33,405 |
+| 3  | 396 |
+| 4  | 3 |
 | 5 | 0 |
 
-Luby's algorithm completed in 182s.
+Luby's algorithm completed in 691s.
+
+As expected, running the algorithm with fewer workers with fewer cores each took a significantly longer amount of time, with each of the part b specifications taking an extra iteration. However, surprisingly, the 2x2 core configuration actually had the fewest remaining activce vertices after each of the first three iterations before not finishing the task after four and running in the longest amount of time. 
 
 ## Submission via GitHub
 Delete your project's current **README.md** file (the one you're reading right now) and include your report as a new **README.md** file in the project root directory. Have no fear—the README with the project description is always available for reading in the template repository you created your repository from. For more information on READMEs, feel free to visit [this page](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes) in the GitHub Docs. You'll be writing in [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown). Be sure that your repository is up to date and you have pushed all changes you've made to the project's code. When you're ready to submit, simply provide the link to your repository in the Canvas assignment's submission.
